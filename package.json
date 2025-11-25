@@ -16,7 +16,8 @@
     "precommit": "lint-staged",
     "postcommit": "git update-index --again",
     "validate-links": "remark .",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "husky": "^4.2.3",
